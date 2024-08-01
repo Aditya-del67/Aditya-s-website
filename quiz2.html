@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz 2</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education1.html">Education Page 1</a></li>
+                <li><a href="education2.html">Education Page 2</a></li>
+                <li><a href="education3.html">Education Page 3</a></li>
+                <li><a href="quiz1.html">Quiz 1</a></li>
+                <li><a href="quiz2.html">Quiz 2</a></li>
+                <li><a href="quiz3.html">Quiz 3</a></li>
+                <li><a href="info.html">Additional Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="quizForm2">
+            <h2>Question 3</h2>
+            <label>
+                <input type="radio" name="q3" value="A">
+                Answer A
+            </label><br>
+            <label>
+                <input type="radio" name="q3" value="B">
+                Answer B
+            </label><br>
+
+            <h2>Question 4</h2>
+            <label>
+                <input type="radio" name="q4" value="A">
+                Answer A
+            </label><br>
+            <label>
+                <input type="radio" name="q4" value="B">
+                Answer B
+            </label><br>
+
+            <!-- Add more questions as needed -->
+
+            <button type="button" onclick="nextPage('quiz3.html')">Next</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Educational Website</p>
+    </footer>
+
+    <script>
+        function nextPage(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
